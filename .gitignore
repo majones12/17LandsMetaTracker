@@ -1,0 +1,9 @@
+graphs/
+Lib/
+Scripts/
+share/
+__pycache__/
+
+*.ipynb
+
+learningSelenium.py
