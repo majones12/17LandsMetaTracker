@@ -1,20 +1,24 @@
 # 17LandsMetaTracker
 Using 17 lands color_ratings data plot percentage of games played by colour by date.
 
-As of Jul 9th - this is a work in progress.
+As of Sep 19th - this is a work in progress.
 
 INSTALLATION:
 See requirements.txt for required packages.  I would recommend setting up a
 virtual environment, clone the repo, and then run:
 >pip install -r requirements.txt
 
+NOTE: Selenium requires the appropriate Chrome Driver for the version of Chrome
+installed on your machine.  Get the latest chrome driver (or the one matching your
+version of chrome) from https://googlechromelabs.github.io/chrome-for-testing/
+
 EXECUTION:
 This is a python command line application currently - run it in a
 shell per:
 >python meta_game_analysis.py
 
-It will prompt you for which set, format, and user tier you would like
-to analyze.
+It will open a chrome browser window, then prompt you for which set, format, 
+and user tier you would like to analyze.
 
 DESCRIPTION:
 Using data from https://www.17lands.com/color_ratings, 
